@@ -16,11 +16,11 @@ import java.io.IOException;
 @Configuration
 public class SessionFactoryConfiguration {
 
-    @Value("${mybatis_config_file")
+    @Value("${mybatis_config_file}")
     private String mybatisConfigFilePath;
-    @Value("${mybatis_path")
+    @Value("${mapper_path}")
     private String mapperPath;
-    @Value("${mybatis_package")
+    @Value("${entity_package}")
     private String entityPackage;
 
     @Autowired
